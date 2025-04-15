@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Electronic Food Management System</title>
+    <style>
+        body {font-family: Arial, sans-serif; margin: 0; padding: 0;}
+        header {background: white; padding: 25px; text-align: center;}
+        nav {margin: 25px 0;}
+        table {width: 80%; margin: 20px auto; border-collapse:collapse; }
+        th, td {border: 1px solid #ddd; padding: 8px; text-align: center;}
+
+    </style>
+</head>
+
+<body>
+    
+<header>
+    <h1>Electronic Food Management System</h1>
+    <nav>
+        <a href="/">Home</a> |
+        <a href="/add_food">Add Food</a> |
+        <a href="/view_food">View Food</a> |
+        <a href="/update_food">Update Food</a> |
+        <a href="/delete_food">Delete Food</a>
+    </nav>
+
+</header>
+
+<div>
+    {% block content %} 
+    {% endblock %}
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
